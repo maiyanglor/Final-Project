@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.border{
+    border-width: 3x;
+    border-style: hidden;
+}
+
+header{
+    width: 100%;
+    height: 150px;
+}
+
+#nav{
+    position: sticky;
+    top: 0; 
+    width: 110%;
+    height: 70;
+	padding: 0;
+    background-color: rgb(0, 178, 237);
+    display: block;  
+    float: left; 
+    left: 0;
+    right: 0; 
+}
+
+#logo{
+    float: left;
+    margin:6px 7px;
+}
+
+#nav ul{
+    margin-top: 12px;
+    list-style-type:none;
+    text-align: center;
+    position: relative; 
+    display: inline-block; 
+}
+
+#nav ul a{
+    padding: 10px; 
+    color:whitesmoke;
+    text-transform: uppercase;
+    text-decoration:none;
+    font-size: 15px;
+}
+
+#nav ul a:hover{
+    color: #069;
+}
+
+#nav ul a:active{
+    color: darkgray;
+}
+
+#nav ul a li{
+    display: inline-block;
+    margin:10px 10px;
+}
+
+#nav li{
+	float: left; 
+}
+
+#nav li a{
+	display: block;
+	padding: 10px 10px;
+	text-decoration: none;
+	color: #fff;
+}
+
+#nav li a:hover{
+    padding: 10px 10px;
+    color: #069;
+	background-color: #fff; 
+}
+
+main{
+    width: 100%;
+    height: 500px; 
+    background-color: white; 
+    background-repeat: no-repeat;
+    background-size: cover; 
+    text-align: center; 
+}
+
+.heroText{
+    color: #069;
+    height: 100px;
+    position: static;
+    top: 40%;
+    left: 50%;
+    transform: translate(5%, 5%);
+}
+.herotext h1{
+    font-size: 100px;
+}
+.heroText p{
+    font-size: 12px;
+    line-height: normal;
+}
+
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: left;
+    line-height: normal; 
+}
+
+body {
+    margin: 0px; 
+    background-color: white;
+}
+
+section{
+    width: 65%;
+    height: 240px;
+    float: left;
+    border-right:10px double #069;
+}
+
+footer{
+    width: 100vw;
+    height: 250px;
+    clear: both;
+    color: #069;
+    text-align: center; 
+}
