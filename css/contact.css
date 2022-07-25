@@ -88,62 +88,6 @@ main{
     text-align: center; 
 }
 
-.heroText{
-    height: 420px;
-    position: static;
-    float: left; 
-    color: #069; 
-}
-.heroText .image{
-    filter: brightness(70%);
-}
-.herotext h1{
-    font-size: 100px; 
-}
-.heroText p{
-    font-size: 12px;
-    line-height: normal;
-    text-align: left; 
-}
-p{
-    margin: 8px;
-    display: block;
-    line-height: normal;
-    float: left; 
-}
-
 body {
     background-color: #fff; 
-}
-
-.column {
-    float: left;
-    width: 32.5%;
-    padding: 3px;
-    margin: 3.5px; 
-}
-  
-.column:hover:hover .image{
-    opacity: 0.3;
-    float: left; 
-}
-
-.row::after {
-    content: "";
-    clear: both;
-    display: table;
-    float: left; 
-    padding-bottom: 25px; 
-}
-
-#footer{
-    position: static; 
-    margin: 0;
-    left: 0; 
-    bottom: 0; 
-    padding: 0;  
-    font-size: 6px; 
-    text-align: center; 
-    color: #069; 
-    clear: both; 
 }
