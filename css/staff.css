@@ -92,6 +92,69 @@ body {
     background-color: #fff; 
 }
 
+.typewriter body {
+    background: #fff;
+    padding-top: 5em;
+    display: flex;
+    justify-content: center;
+}
+.typewriter h1 {
+    color: #069;
+    font-size: 50px; 
+    text-align: center; 
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid #069; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(30, end),
+      blink-caret .5s step-end infinite;
+} 
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+} 
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #069 }
+}
+/* Staff profile section */
+h2 {
+    color: #069;
+    font-size: 25px; 
+    text-align: center; 
+}
+h3 {
+    color: skyblue;
+    font-size: 15px; 
+    text-align: center; 
+}
+
+.column {
+    float: left;
+    width: 33%;
+    padding: 15px;
+    text-decoration: none;
+    height: 1280px;
+}
+
+img {
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row {
+    padding: 7px; 
+    color:#069; 
+    font-size: small;
+    text-align: left; 
+}
+  
 #footer{
     position: static; 
     margin: 0;
