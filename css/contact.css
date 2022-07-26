@@ -15,7 +15,7 @@ header{
 }
 
 #nav{
-    position: sticky;
+    position: absolute;
     top: 0; 
     width: 110%;
     height: 70;
