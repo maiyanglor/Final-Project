@@ -104,7 +104,7 @@ body {
     text-align: center; 
     overflow: hidden; /* Ensures the content is not revealed until the animation */
     border-right: .12em solid #069; /* The typwriter cursor */
-    height: 4px;
+    height: 3px;
     white-space: nowrap; /* Keeps the content on a single line */
     padding: 60px; 
     margin: 0 auto; /* Gives that scrolling effect as the typing happens */
@@ -123,7 +123,7 @@ body {
     from, to { border-color: transparent }
     50% { border-color: #069 }
 }
-/* Staff profile section */
+/* Staff section titles */
 h2 {
     color: #069;
     font-size: 25px; 
@@ -134,13 +134,13 @@ h3 {
     font-size: 15px; 
     text-align: center; 
 }
-
+/* columns with profile pics */ 
 .column {
     float: left;
     width: 33%;
     padding: 15px;
     text-decoration: none;
-    height: 680px;
+    height: 580px;
 }
 
 img {
@@ -156,7 +156,7 @@ img {
     font-size: small;
     text-align: left; 
 }
-  
+/* footer */  
 #footer{
     position: static; 
     margin: 0;
