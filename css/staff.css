@@ -148,6 +148,7 @@ h3 {
 
 .column p {
     line-height: 1.6; 
+    font-size: smaller;
 }
 img {
     border-radius: 50%;
@@ -159,7 +160,6 @@ img {
 .row {
     padding: 7px; 
     color:#069; 
-    font-size: small;
     text-align: left; 
 }
 /* footer */  
