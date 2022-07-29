@@ -98,6 +98,7 @@ body {
 
 .heroText{
     margin-top: 80px;
+    margin-left: 12px; 
     height: 100px;
     position: absolute;
     float: left; 
