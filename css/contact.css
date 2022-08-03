@@ -156,7 +156,7 @@ input[type=submit]:hover {
     width:400px;
 }
 
-#footer{
+.footer{
     position: static; 
     margin: 0;
     left: 0; 
