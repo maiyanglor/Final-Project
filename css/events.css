@@ -102,8 +102,7 @@ body {
 }
 /* ticket buttons */ 
 .button {
-  background-color: #069;
-  float: left; 
+  background-color: #069; 
   clear: both; 
   border: none;
   color: #fff;
