@@ -176,7 +176,7 @@ p{
     padding-bottom: 25px; 
 }
 
-#footer{
+.footer{
     position: static; 
     margin: 0;
     left: 0; 
