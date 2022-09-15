@@ -20,7 +20,7 @@ header{
 #nav{
     position: absolute;
     top: 0; 
-    width: 110%;
+    width: 100%;
     height: 70;
 	padding: 0;
     z-index: 9000; 
@@ -82,20 +82,14 @@ header{
 	background-color: #fff; 
 }
 
-main{
-    width: 100%;
-    height: 600px; 
-    background-color: white; 
-    background-repeat: no-repeat;
-    background-size: cover; 
-    text-align: center; 
-}
 body {
     background-color: #fff; 
+    height:900px; 
 }
 
 .audio {
-    margin-bottom: -2px; 
+    margin-bottom: -2px;
+    text-align:center;  
 }
 .typewriter body {
     background: #fff;
@@ -129,38 +123,33 @@ body {
     50% { border-color: #069 }
 }
 
-.heroText{
+.hero-image{
     height: 480px;
     position: static;
     float: left; 
     color: #069; 
 }
-.heroText .image{
+.hero-image .image{
     margin-top: 25px; 
     filter: brightness(70%);
     position: relative; 
     z-index: 8000; 
 }
-.heroText p{
-    margin-top: 10px; 
-    font-size: 12px;
-    line-height: normal;
-    text-align: left; 
-}
 p{
-    margin: 8px;
+    margin: 20px;
     display: block;
     line-height: normal;
     float: left; 
+    margin-bottom: 2px; 
 }
 
 .column {
     float: left;
-    width: 32.5%;
     padding: 3px;
     margin: 3.5px; 
-    margin-top: 25px; 
-    height: 230px; 
+    margin-top: 21em;
+    width: 32.5%; 
+    height: 300px; 
 }
   
 .column:hover:hover .image{
@@ -173,12 +162,13 @@ p{
     clear: both;
     display: table;
     float: left; 
-    padding-bottom: 25px; 
+    padding-bottom: 20px; 
 }
 
 .footer{
     position: static; 
     margin: 0;
+    margin-top: 10px; 
     left: 0; 
     bottom: 0; 
     padding: 0;  
